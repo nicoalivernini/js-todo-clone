@@ -9,7 +9,7 @@ $(document).ready(function(){
     //Prendo il valore dell'input
     var inputTitle = $('#input-title').val();
     //Svuoto l'input mettendo stringa vuota
-    $('#insert-title').val('');
+    $('#input-title').val('');
 
     //Clono il li del template
     var template = $('#template li').clone();
