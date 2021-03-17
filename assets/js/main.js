@@ -15,33 +15,32 @@ var cancella = $('#delete');
 
 var input = $('#add');
 
-// console.log(toDoList, title, modifica, cancella);
-
 $(document).ready(function(){
 
+//Scrivo un'attività e clicco su aggiungi
   $('#sent').click(function(){
     var title = $('#add').val();
-    console.log(title);
+    //Inserisco ciò che è stato scritto nel title
+    $('#title').text(title);
+    //Libero l'input
     $('#add').val('');
   })
 
-  var cloneLi = $('#to-do-list ul li');
-  console.log(cloneLi);
-  cloneLi.children('#title').text(title);
+$('#delete').click(function(){
+  $('#')
+})
+
+
 
 
 }) //Chiusura ready
 
 
 
-
-
-
-
-// $('#add').keyup(function(e) {
-//   if (e.which == 13) {
-//     var title = $('#add').val();
-//     $('#title').append(title);
-//     $('#add').val('');
-//   }
-// })
+$('#add').keyup(function(e) {
+  if (e.which == 13) {
+    var title = $('#add').val();
+    $('#title').append(title);
+    $('#add').val('');
+  }
+})
