@@ -11,10 +11,10 @@
   flex-direction: column;
 }
 
-ul {
-  list-style: none;
+#template {
+  display: none;
 }
 
-#modify {
+.rewrite {
   display: none;
 }
