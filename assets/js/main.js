@@ -41,18 +41,16 @@ $(document).ready(function(){
     $('#to-do-list').append(template);
   });
 
-  // // //Abilito la possibilità di inserire utilizzando invio della tastiera
-  // $('input').keyup(function(e){
-  //   console.log(e);
+  //  //Abilito la possibilità di inserire utilizzando invio della tastiera
+  // $('#input-title').keyup(function(e){
   //   if (e.which == 13) {
-  //     var inputTitle = $(this).val();
-  //     console.log(e);
+  //     var inputTitle = $('#input-title').val();
   //     var template = $('#template li').clone();
   //     template.children('span.title').text(inputTitle);
   //     //Svuoto l'input mettendo stringa vuota
   //     // $('#input-title').val('');
   //   } else {
-  //     console.log('non lo prendo');
+  //
   //   }
   // })
 
